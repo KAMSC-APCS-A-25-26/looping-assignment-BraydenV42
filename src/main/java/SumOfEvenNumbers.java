@@ -10,7 +10,7 @@ public class SumOfEvenNumbers {
 
         // TODO: Step 2 - Validate input
         if(number > 2){
-            for(int i = 2; i < number; i += 2) {
+            for(int i = 0; i <= number; i += 2) {
                 total += i;
             }
             System.out.println("The sum of even numbers between 2 and 10 is " + total);
