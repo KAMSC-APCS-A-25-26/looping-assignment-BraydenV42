@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class CharacterPerLine {
     public static void main(String[] args) {        
         // TODO: Step 1 - Get user input
-        System.out.println("Enter a word: ");
+        System.out.print("Enter a word: ");
         Scanner sc = new Scanner(System.in);
         String word;
         word = sc.nextLine();
