@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class NumberTrianglePattern {
     public static void main(String[] args) {
         // TODO: Step 1 - Get user input
-        System.out.print("Enter a positive integer: ");
+        System.out.println("Enter a positive integer: ");
         Scanner sc = new Scanner(System.in);
         int number;
         number = sc.nextInt();
