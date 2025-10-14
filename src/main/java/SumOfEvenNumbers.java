@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class SumOfEvenNumbers {
+    
     public static void main(String[] args) {     
         // TODO: Step 1 - Get user input
         System.out.print("Enter an integer value: ");
