@@ -10,7 +10,7 @@ public class SumOfEvenNumbers {
         number = sc.nextInt();
 
         // TODO: Step 2 - Validate input
-        if(number == 2){
+        if(number >= 2){
             for(int i = 0; i <= number; i += 2) {
                 total += i;
             }
