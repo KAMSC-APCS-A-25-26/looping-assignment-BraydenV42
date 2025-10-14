@@ -18,7 +18,11 @@ public class NumberTrianglePattern {
                     System.out.print(f + 1);
                 }
             }
-            System.out.println();
+            if(!(i + 1 == number))
+            {
+                System.out.println();
+            }
+
         }
     }
 }
