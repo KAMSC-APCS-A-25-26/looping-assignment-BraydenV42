@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class SumOfEvenNumbers {
-    
+
     public static void main(String[] args) {     
         // TODO: Step 1 - Get user input
         System.out.print("Enter an integer value: ");
@@ -10,7 +10,7 @@ public class SumOfEvenNumbers {
         number = sc.nextInt();
 
         // TODO: Step 2 - Validate input
-        if(number > 2){
+        if(number >= 2){
             for(int i = 0; i <= number; i += 2) {
                 total += i;
             }
