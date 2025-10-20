@@ -13,7 +13,7 @@ public class NumberTrianglePattern {
         for(int i = 0; i < number; i++) {
             for(int f = 0; f <= i; f++) {
                 if (!(i + 1 == number)) {
-                    System.out.print((f + 1) + " ");
+                    System.out.print((f + 1));
                 }
                 else
                 {
