@@ -11,18 +11,20 @@ public class NumberTrianglePattern {
         // TODO: Step 2 - Generate the number triangle pattern
         for(int i = 0; i < number; i++) {
             for(int f = 0; f <= i; f++) {
-                if (!(f == i)) {
+                if (!(i + 1 == number)) {
                     System.out.print((f + 1) + " ");
                 }
-                else {
-                    System.out.print(f + 1);
+                else
+                {
+                    if(!(f+1 == number)) {
+                        System.out.print((f + 1) + " ");
+                    }
+                    else {
+                        System.out.print((f + 1));
+                    }
                 }
             }
-            if(!(i + 1 == number))
-            {
-                System.out.println();
-            }
-
+            System.out.println();
         }
     }
 }
