@@ -7,13 +7,13 @@ public class NumberTrianglePattern {
         Scanner sc = new Scanner(System.in);
         int number;
         number = sc.nextInt();
-        System.out.println();
+        
 
         // TODO: Step 2 - Generate the number triangle pattern
         for(int i = 0; i < number; i++) {
             for(int f = 0; f <= i; f++) {
                 if (!(i + 1 == number)) {
-                    System.out.print((f + 1));
+                    System.out.print((f + 1) + " ");
                 }
                 else
                 {
