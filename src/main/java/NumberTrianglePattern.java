@@ -26,5 +26,6 @@ public class NumberTrianglePattern {
             }
 
         }
+        System.out.println();
     }
 }
