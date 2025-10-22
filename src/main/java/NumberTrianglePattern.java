@@ -19,12 +19,7 @@ public class NumberTrianglePattern {
                     System.out.print(f + 1);
                 }
             }
-
-            if(!(i + 1 == number))
-            {
-                System.out.println();
-            }
-
+            System.out.println();
         }
     }
 }
